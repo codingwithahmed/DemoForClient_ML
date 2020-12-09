@@ -1,0 +1,67 @@
+.menu_item{
+    transition: 1s all;
+    color: #262628;
+    background-color: #ffffff;
+}
+.t_1{
+    transition: 1s background;
+background-color: #262628;
+border-radius: 25px;
+color: #ffffff;
+}
+
+*{
+    letter-spacing: 1px;
+}
+
+
+.sidebar {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20vw;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.menu_item > h3 {
+  margin-left: 3vw;
+}
+
+.card{
+    height: 25vh;
+    width: 15vw;
+    background-color: #262628;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    mask-image: linear-gradient(to top, rgb(0,0,0,8),rgba(0,0,0,1));
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards_btn{
+    background-color: #68666f;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+
