@@ -1,0 +1,10 @@
+primary color : #262628 
+main color : #ffffff
+secondary color : #eceff8
+search bar color : #f3f4f6
+
+list item {
+    li 1 : #262626
+    li 2 : #757a8a
+    li 3: #a0aabf
+}
