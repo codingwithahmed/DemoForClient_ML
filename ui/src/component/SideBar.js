@@ -32,11 +32,11 @@ export default class SideBar extends Component {
                    </div>
 
                    <div className="menu_item">
-                   <h3>Cards</h3>
+                   <h3>Fact Checker</h3>
                    </div>
 
                    <div className="menu_item">
-                   <h3>Prenium</h3>
+                   <h3>Premnium</h3>
                    </div>
 
                    <div className="menu_item">
@@ -52,7 +52,7 @@ export default class SideBar extends Component {
                 <div className="cards">
                     <div className="card">
                         <h3 style={{color:"white",textAlign:"center",fontWeight:100}}>Use our Prenium <br /> Feature now </h3>
-                        <button className="cards_btn">Get Prenium</button>
+                        <button className="cards_btn">Get Premnium</button>
                     </div>
               
                      

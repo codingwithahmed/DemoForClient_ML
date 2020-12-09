@@ -43,7 +43,7 @@ export default function Mid() {
             <div className="real_app">
             
             <h3 style={{color:"white",textAlign:"center",fontWeight:100}}>Use our Prenium <br /> Feature now </h3>
-                        <button className="cards_btn">Get Prenium</button>
+                        <button className="cards_btn">Get Premnium</button>
                 </div>
 
             </div>
