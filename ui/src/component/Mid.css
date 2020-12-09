@@ -1,0 +1,114 @@
+.mid{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    margin: auto;
+    margin-top: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_left > h4 {
+    font-weight: 200;
+    color: #eeeef0;
+    margin-top: -2vh;
+}
+
+.searchbar{
+    padding: 10px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 1vw;
+    background-color: #f3f4f6;
+}
+.searchbar > input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.main_ad{
+        background-color: #f3f4f6;
+        background-image: url('./Images/undraw_launching_125y.svg');
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 25vh;
+        border-radius: 2vw;
+}
+.main_ad > h2 {
+    margin-left: 3vw;
+    margin-top: 9vh;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    background-image: url('');
+    background-position: center right;
+}
+
+.top_active{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 25vw;
+    box-shadow: 10vw 5vw 30px  rgba(0, 0, 0, 0.041);
+    margin-top: 10vh;
+    min-height: 40vh;
+    border-radius: 2vw;
+}
+
+.real_app{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff  ;
+    width: 25vw;
+    margin-top: 10vh;
+    min-height: 20vh;
+    justify-content: top;
+}
+
+.real_app:first-child{
+    background-image: url('./Images/undraw_Data_re_80ws.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom-left-radius: 01vw;
+}
+
+.real_app:last-child{
+    margin-top: 5vh;
+    background-color: #262628 ;
+    border-radius: 2vw;
+    background-image: url('./Images/undraw_relaunch_day_902d.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+.real_app > .title_area >input{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    outline: none;
+}
+
+.title_area{
+    background-color: transparent;
+    border-radius: 2vw;
+    padding: 3vw;
+  
+}

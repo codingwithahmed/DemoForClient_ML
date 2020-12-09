@@ -1,0 +1,28 @@
+.activity{
+    display:flex;
+    flex-direction: row;
+    width: 18vw;
+    justify-content: space-between;
+}
+
+h5{
+    font-weight: 500;
+    margin-top: -0.2vh;
+}
+h6{
+    font-weight: 100;
+
+}
+h5:last-child{
+    margin-left: 0.3vw;
+    margin-top: 1.3vh;
+}
+.circle{
+    background-color: black;
+    height: 5.2vh;
+    width: 4vw;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    border-radius: 5000px;
+}
