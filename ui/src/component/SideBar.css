@@ -2,12 +2,23 @@
     transition: 1s all;
     color: #262628;
     background-color: #ffffff;
+    width: 85%;
+    text-decoration: none;
+    margin-top: 0.1vh;
+    margin-bottom: 0.1vh;
 }
 .t_1{
-    transition: 1s background;
-background-color: #262628;
-border-radius: 25px;
-color: #ffffff;
+    transition: 1s all;
+    width: 90%;
+}
+.check{
+    transition: 1s all;
+    width: 90%;
+}
+.menu_item:hover{
+    background-color: #262628;
+   border-radius: 25px;
+   color: #ffffff;
 }
 
 *{
@@ -38,6 +49,7 @@ color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
 .menu_item > h3 {
   margin-left: 3vw;

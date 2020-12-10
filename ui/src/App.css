@@ -1,8 +1,9 @@
 .app{
   display: flex;
   flex-direction: row;
+  width: 90%;
+  margin: auto;
 }
-
-.place{
-  flex: 1.2;
+div{
+  flex: 3;
 }

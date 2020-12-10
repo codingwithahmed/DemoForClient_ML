@@ -1,11 +1,13 @@
 import './SideBar.css'
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 export default class SideBar extends Component {
 
     constructor(props){
         super(props);
         this.wrapperref = React.createRef();
+        this.link2 = React.createRef();
         this.state = {
             
         }   
@@ -17,6 +19,10 @@ export default class SideBar extends Component {
         const wrapper = this.wrapperref.current;
         wrapper.classList.toggle('t_1')
     }
+    handleclicklink(){
+        const wrapper = this.link2.current;
+        wrapper.classList.toggle('check')
+    }
 
     render() {
         return (
@@ -27,12 +33,20 @@ export default class SideBar extends Component {
                 </div>
 
                 <div  className="menu">
-                    <div ref={this.wrapperref} onClick={() => this.handleclick()} className="menu_item">
+                    
+                <div ref={this.wrapperref} onClick={() => this.handleclick()} className="menu_item">
+                    <Link className="menu_item" to= "/">
+                   <h3>Home </h3>
+                   </Link>
+                   </div>
+                   
+                    <div  className="menu_item">
                    <h3>Dashoard</h3>
                    </div>
-
-                   <div className="menu_item">
-                   <h3>Fact Checker</h3>
+                   <div className="menu_item" ref={this.link2} onClick={() => this.handleclicklink()}>
+                   <Link className="menu_item" to="/factchecker" > 
+                   <h3 style={{color:"black"}}>Fact Checker</h3>
+                   </Link>
                    </div>
 
                    <div className="menu_item">

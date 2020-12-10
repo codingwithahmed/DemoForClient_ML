@@ -42,14 +42,14 @@ export default function Mid() {
 
             <div className="real_app">
             
-            <h3 style={{color:"white",textAlign:"center",fontWeight:100}}>Use our Prenium <br /> Feature now </h3>
-                        <button className="cards_btn">Get Premnium</button>
-                </div>
+                        <h3 style={{color:"white",textAlign:"center",fontWeight:100}}>Get Five Credits <br /> by Sigining Up now </h3>
+                        <button className="cards_btn">Get 5 Credit Free</button>
 
             </div>
     
             </div>
 
+            </div>
             </div>
         </div>
     )
